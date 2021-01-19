@@ -15,7 +15,9 @@ description = ""
 url = "https://github.com/cole-wilson/tiller"
 keywords = ""
 license = "none"
-latest_build = "0.0.1+build.3"
+latest_build = "0.0.2"
+release-notes = "init"
+latest_release = "0.0.1"
 
 
 # Resource Setup:
@@ -29,7 +31,7 @@ no_import = []
 
 # Plugin Commands:
 [command.tiller]
-string = "This is a test string!"
+string = "sad"
 
 
 # Build Routines:
@@ -40,6 +42,7 @@ tiller = "tiller.__main__:Tiller"
 
 
 # Release Routines:
+[release.github_release]
 
 
 # Other:
