@@ -44,6 +44,7 @@ tiller = "tiller.__main__:Tiller"
 
 # Other:
 [git]
+github = "cole-wilson/tiller"
 
 
 # Thank you for using Sailboat!
