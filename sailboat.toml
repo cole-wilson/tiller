@@ -1,0 +1,49 @@
+#	  _____       _ _ _                 _     
+#	 / ____|     (_) | |               | |  _ 
+#	| (___   __ _ _| | |__   ___   __ _| |_(_)
+#	 \___ \ / _` | | | '_ \ / _ \ / _` | __|  
+#	 ____) | (_| | | | |_) | (_) | (_| | |_ _ 
+#	|_____/ \__,_|_|_|_.__/ \___/ \__,_|\__(_)
+                                          
+# Basic Setup:
+name = "Tiller"
+short_name = "tiller"
+email = "cole@colewilson.xyz"
+author = "Cole Wilson"
+short_description = "A small example sailboat plugin."
+description = ""
+url = "https://github.com/cole-wilson/tiller"
+keywords = ""
+license = "none"
+latest_build = "0.0.1+build.3"
+
+
+# Resource Setup:
+[resources]
+icon = ""
+data_files = []
+modules = [ "sailboat",]
+file = "main.py"
+no_import = []
+
+
+# Plugin Commands:
+[command.tiller]
+string = "This is a test string!"
+
+
+# Build Routines:
+[build.pypi.commands]
+
+[build.pypi.entry_points.sailboat_plugins]
+tiller = "tiller.__main__:Tiller"
+
+
+# Release Routines:
+
+
+# Other:
+[git]
+
+
+# Thank you for using Sailboat!
