@@ -21,7 +21,7 @@ options = {
 	"name":"tiller",
 	"version":"0.0.2",
 	"scripts":[],
-	"entry_points":{'console_scripts': [], 'sailboat_plugins': ['tiller=tiller.__main__:Tiller']},
+	"entry_points":{'console_scripts': ['rudder=tiller.__main__:command'], 'sailboat_plugins': ['tiller=tiller.__main__:Tiller']},
 	"author":"Cole Wilson",
 	"author_email":"cole@colewilson.xyz",
 	"description":"A small example sailboat plugin.",

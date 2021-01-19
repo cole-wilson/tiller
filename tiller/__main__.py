@@ -12,3 +12,10 @@ class Tiller(Plugin):
 	
 	def run(self):
 		print(self.getData('string'))
+
+def command():
+	print('Hello, World!')
+	input()
+
+if __name__ == '__main__':
+	command()

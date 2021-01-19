@@ -15,9 +15,9 @@ description = ""
 url = "https://github.com/cole-wilson/tiller"
 keywords = ""
 license = "none"
-latest_build = "0.0.2"
-release-notes = "init"
-latest_release = "0.0.1"
+latest_build = "0.0.2+4f8cd73.5"
+release-notes = "init2"
+latest_release = "0.0.2"
 
 
 # Resource Setup:
@@ -31,11 +31,19 @@ no_import = []
 
 # Plugin Commands:
 [command.tiller]
-string = "sad"
+string = "dasfsdkfghjhksdgfhjkdsgfjhsgf"
 
 
 # Build Routines:
+[build.pyinstaller]
+type = 1
+mac = true
+windows = true
+unix = true
+bundle_id = "com.colewilson.tiller"
+
 [build.pypi.commands]
+rudder = "__main__.command"
 
 [build.pypi.entry_points.sailboat_plugins]
 tiller = "tiller.__main__:Tiller"
