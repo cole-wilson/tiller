@@ -15,7 +15,7 @@ description = ""
 url = "https://github.com/cole-wilson/tiller"
 keywords = ""
 license = "none"
-latest_build = "0.0.2+4f8cd73.5"
+latest_build = "0.1.0"
 release-notes = "init2"
 latest_release = "0.0.2"
 

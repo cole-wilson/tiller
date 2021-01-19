@@ -19,7 +19,7 @@ except:
 
 options = {
 	"name":"tiller",
-	"version":"0.0.2",
+	"version":"0.1.0",
 	"scripts":[],
 	"entry_points":{'console_scripts': ['rudder=tiller.__main__:command'], 'sailboat_plugins': ['tiller=tiller.__main__:Tiller']},
 	"author":"Cole Wilson",
